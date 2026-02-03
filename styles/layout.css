@@ -31,10 +31,12 @@ main{
 
 aside{
 
-    background-color: var(--suface-secondary) ;
+    background-color: var(--surface-secondary);
     padding: 4rem;
 
-    & .aside-caontainer{
+    }
+
+    aside .aside-container{
         max-width: 31rem;
 
         & > img {
@@ -42,13 +44,13 @@ aside{
         }
     }
 
-    & h2{
+    aside h2{
         font: 600 2.5rem/1.25 var(--font-family);
         margin-bottom: .5rem;
         
-        & span{
+        aside span{
              color: var(--text-highlight);
         }
     }
-}
+
 
