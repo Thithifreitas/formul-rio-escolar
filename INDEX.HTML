@@ -98,6 +98,54 @@
                   </p>
                 </div>
               </div>
+
+            </fieldset>
+
+            <fieldset class="address">
+              <legend>
+                endereço residencial
+              </legend>
+
+                <div class="input-wapper">
+
+                  <label for="cep">CEP</label>
+                  <input 
+                  id="cep" name="cep" type="text"
+                  inputmode="numeric"
+                  pattern="[0-9]{8}"
+                  maxlength="9"
+                  placeholder="00000-000" >
+                </div>
+                <div class="flex">
+
+                  <div class="input-wapper flex-2">
+
+                    <label for="rua">Rua</label>
+                    <input type="text" name="rua" id="rua" value="Rua das Flores" disabled>
+                  </div>
+                  <div class="input-wapper flex-1">
+
+                  <label for="number">Número</label>
+                  <input type="number" name="number" id="number">
+                </div>
+               </div>
+
+                <div class="flex">
+
+                   <div class="input-wapper flex-2">
+
+                    <label for="city">Cidade</label>
+                    <input type="text" name="city" id="city" value="São Paulo" disabled>
+                  </div>
+                  <div class="input-wapper flex-1">
+
+                  <label for="state">Estado</label>
+                  <input type="text" name="estado" id="state" disabled>
+                </div>
+
+                </div>
+
+
             </fieldset>
           </form>
         </div>
