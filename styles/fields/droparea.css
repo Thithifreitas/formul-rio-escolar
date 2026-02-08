@@ -1,4 +1,4 @@
-.dropzone{
+.dropzone {
     border: 1px dashed var(--stroke-default);
     border-radius: .25rem;
 
@@ -20,22 +20,24 @@
     }
 }
 
-& p{
+& p {
     color: #A8A29E;
 
 }
 
-.dropzonee:hover, .dropzone:has(input:focus){
+.dropzonee:hover,
+.dropzone:has(input:focus) {
     border-width: 2px;
-    border-color: var(--stroke-hightlight);
-    background-color: var(--surface-secundary);}
+    border-color: var(--stroke-highlight);
+    background-color: var(--surface-secundary);
+}
 
-    .dropzone:hover p,
+.dropzone:hover p,
 .dropzone:has(input:focus) p {
-        color: var(--text-tertiary);
-    }
+    color: var(--text-tertiary);
+}
 
-    .dropzone:hover svg path,
+.dropzone:hover svg path,
 .dropzone:has(input:focus) svg path {
-        stroke: var(--stroke-hightlight);
-    }
+    stroke: var(--stroke-highlight);
+}

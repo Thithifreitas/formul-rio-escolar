@@ -1,14 +1,14 @@
-label + input-wrapper{
+label+input-wrapper {
     margin-top: 1rem;
 }
 
-.radio-wrapper{
+.radio-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
-    gap: 1rem; 
+    gap: 1rem;
 }
 
-.radio-inner{
+.radio-inner {
     border: 1px solid var(--stroke-default);
     border-radius: .5rem;
     position: relative;
@@ -23,13 +23,13 @@ label + input-wrapper{
     "&" por ".radio-inner"*/
     & input,
     & input:focus,
-    & input:hover{
+    & input:hover {
         all: unset;
         position: absolute;
         inset: 0;
     }
 
-    .radio-image{
+    .radio-image {
         background-image: url(/img/circlevazio.png);
         width: 1.5rem;
         height: 1.5rem;
@@ -38,14 +38,15 @@ label + input-wrapper{
         left: .5rem;
     }
 
-    &:hover, &:focus-within{
-        border: 1px solid var(--stroke-hightlight);
+    &:hover,
+    &:focus-within {
+        border: 1px solid var(--stroke-highlight);
     }
-    
+
     &:has(:checked) {
-        border: 2px solid var(--stroke-hightlight);
-    
-        & .radio-image{
+        border: 2px solid var(--stroke-highlight);
+
+        & .radio-image {
             background-image: url(/img/checkmark-circle.png);
         }
     }
